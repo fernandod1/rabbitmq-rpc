@@ -1,0 +1,31 @@
+{
+    "name": "fernandod1/rabbitmq-rpc",
+    "description": "Rabbitmq RPC",
+    "type": "project",
+    "authors": [
+      {
+        "name": "Fernando"
+      }
+    ],
+    "version": "1.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "Fernandod1\\RabbitmqRpc\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+    "psr-4": {
+        "Fernandod1\\Tests\\RabbitmqRpc\\": "tests/"
+    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    },
+    "require": {
+        "php-amqplib/php-amqplib": "3.6.2",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
